@@ -102,6 +102,9 @@ print(type(a[0]))                   # 타입은?
 print(a[len(a) - 1])                # n 출력
 print(a[-1])                        # n 출력 -> 인덱싱 할 때마다 새로운 문자열이 생성됨
 
+#  P  y  t  h  o  n
+#  0  1  2  3  4  5
+# -6 -5 -4 -3 -2 -1
 # 슬라이싱 (start:end-1:step)
 print(a[0:2])                       # Py 출력
 print(a[:2])                        # Py 출력 (처음부터)

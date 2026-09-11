@@ -38,7 +38,7 @@ print(a.strip("*"))                 # 양쪽 특정문자 제거
 s = "Python is fun. I love Python."
 
 # 부분 문자열이 처음 등장하는 위치(인덱스)를 알려주는 문자열 메소드
-print(s.find("Python"))             # 인덱스 반환
+print(s.find("Python"))             # 인덱스 반환                                                 
 print(s.index("Python"))            # 인덱스 반환
 
 print(s.find("Java"))               # 인덱스 반환 ( 없으면 ) find : -1 반환
